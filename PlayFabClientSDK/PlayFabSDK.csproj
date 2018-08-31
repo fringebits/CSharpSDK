@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -37,6 +37,8 @@
     <Compile Include="source\Json\ISerializer.cs" />
     <Compile Include="source\Json\NewtonsoftWrapper.cs" />
     <Compile Include="source\Json\SimpleJson.cs" />
+    <Compile Include="source\PlayFabAdminAPI.cs" />
+    <Compile Include="source\PlayFabAdminModels.cs" />
     <Compile Include="source\PlayFabHttp\IPlayFabHttp.cs" />
     <Compile Include="source\PlayFabHttp\PlayFabHttp.cs" />
     <Compile Include="source\PlayFabHttp\PlayFabSysHttp.cs" />
